@@ -17,7 +17,7 @@ E para abrir ela no navegador basta digitar um npm start
 obs: no package.json eu mudo a linha 7 colocando um script "start": "lite-server"
 
 ------------------------------------------------------------------------------------------------------------------------------------
-#English
+
 Project done as a challenge during stage 06 of Rocketseat's Explorer (FullStack).
 
 Was used:
