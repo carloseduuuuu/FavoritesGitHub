@@ -6,7 +6,7 @@ Foi utilizado:
   - CSS;
   - JS;
 
-Utilizei conceitos de classes no JavaScript para criar conter a lógica dos dados e para criar a vizualização dos eventos e do HTML.
+Utilizei conceitos de classes no JavaScript para criar a lógica dos dados e para criar a vizualização dos eventos e do HTML.
 Fizemos uma conexão com uma API do github para buscar os usuários e adicionar nos favoritos.
 
 Para executar a aplicação:
@@ -27,7 +27,7 @@ Was used:
   - CSS;
   - JS;
 
-I used class concepts in JavaScript to create data logic and to create event and HTML visualization.
+I used class concepts in JavaScript to create the data logic and to create the visualization of events and HTML.
 We made a connection to a github API to search for users and add them to favorites.
 
 To run the application:
