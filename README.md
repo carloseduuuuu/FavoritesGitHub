@@ -25,7 +25,7 @@ Project done as a challenge during stage 06 of Rocketseat's Explorer (FullStack)
 Was used:
   - HTML;
   - CSS;
-  -JS;
+  - JS;
 
 I used class concepts in JavaScript to create data logic and to create event and HTML visualization.
 We made a connection to a github API to search for users and add them to favorites.
