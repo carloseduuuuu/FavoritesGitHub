@@ -1,4 +1,3 @@
-Portugues
 Projeto feito como desafio durante o stage 06 do Explorer(FullStack) da Rocketseat.
 
 Foi utilizado:
@@ -19,7 +18,7 @@ obs: no package.json eu mudo a linha 7 colocando um script "start": "lite-server
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-English
+- English
 Project done as a challenge during stage 06 of Rocketseat's Explorer (FullStack).
 
 Was used:
