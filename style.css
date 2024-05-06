@@ -188,13 +188,13 @@ td .remove {
   color: #4E5455;
 }
 
-/* table tbody {
+table tbody {
   display: block;
   width: 100%
 }
 
 table tbody {
-  height: 300px;
+  height: 30.0rem;
   overflow-y: auto;
 }
 
@@ -202,4 +202,19 @@ thead, tr {
   width: 100%;
   display: table;
   table-layout: fixed;
-} */
+}
+
+
+table tbody::-webkit-scrollbar {
+  width: .6rem;
+}
+
+table tbody::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+table tbody::-webkit-scrollbar-thumb {
+  background-color: #4A808C; 
+  border-radius: 1.0rem;
+  border: none 
+}
