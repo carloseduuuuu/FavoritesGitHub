@@ -1,3 +1,4 @@
+# Português
 Projeto feito como desafio durante o stage 06 do Explorer(FullStack) da Rocketseat.
 
 Foi utilizado:
@@ -17,7 +18,7 @@ E para abrir ela no navegador basta digitar um npm start
 obs: no package.json eu mudo a linha 7 colocando um script "start": "lite-server"
 
 ------------------------------------------------------------------------------------------------------------------------------------
-
+# English
 Project done as a challenge during stage 06 of Rocketseat's Explorer (FullStack).
 
 Was used:
@@ -35,3 +36,10 @@ To run the application:
 
 And to open it in the browser, just type npm start
 Note: in package.json I change line 7 by putting a "start" script: "lite-server"
+
+
+# Layout 
+
+![alt text](image.png)
+
+![alt text](image-1.png)
