@@ -22,13 +22,13 @@ export class Favorites {
       const userExists = this.entries.find(entry => entry.login === username)
 
       if(userExists) {
-        throw new Error('Usuário já adicionado!')
+        throw new Error('User already added!')
       }
 
       const user = await GithubUser.search(username)
 
       if(user.login === undefined) {
-        throw new Error('Usuário não encontrado!')
+        throw new Error('User not found!')
       }
 
       this.entries = [user, ...this.entries]
@@ -86,7 +86,7 @@ export class FavoritesView extends Favorites {
         const row = this.createRow()
   
         row.querySelector('.user img').src=`https://github.com/${user.login}.png`
-        row.querySelector('.user img').alt = `Imagem de ${user.name}`
+        row.querySelector('.user img').alt = `Image of ${user.name}`
         row.querySelector('.user a').href = `https://github.com/${user.login}`
         row.querySelector('.user p').textContent = user.name
         row.querySelector('.user span').textContent = user.login
@@ -94,7 +94,7 @@ export class FavoritesView extends Favorites {
         row.querySelector('.followers').textContent = user.followers
   
         row.querySelector('.remove').onclick = () => {
-          const isOk = confirm('Tem certeza que deseja deletar essa linha?')
+          const isOk = confirm('Are you sure you want to delete this line?')
           if(isOk) {
             this.delete(user)
           }
@@ -113,8 +113,8 @@ export class FavoritesView extends Favorites {
     tr.innerHTML = `
     <td colspan="4">
       <div class="no-user">
-        <img src="/images/startbg.svg" alt="ícone de uma estrela surpresa">
-        <span>Nenhum favorito ainda</span>
+        <img src="/images/startbg.svg" alt="surprise star icon">
+        <span>No favorites yet</span>
       </div>
     </td>
     `
